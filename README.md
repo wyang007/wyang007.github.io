@@ -21,3 +21,8 @@ Lab with PyROOT, Xcache with auto data discovery, GPUs, etc.
 
 The two facilites are backed by staffs to support software environment, unix systems and
 storages.
+
+    Instruction 1
+    `ssh www.doe.com`
+    Instruction 2
+    `source cvmfs-setup.sh`
