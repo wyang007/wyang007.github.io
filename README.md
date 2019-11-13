@@ -1,7 +1,8 @@
 # Public Documentation for US ATLAS Shared Tier 3/Analysis Facilities
 
-### <span style="color:orange">Privacy Disclaimer
-US ATLAS documents and code samples hosted at this GitHub organization are visible to the
+### <span style="color:orange">Privacy Disclaimer</span>
+<span style="color:orange">US ATLAS documents and code samples hosted at this GitHub 
+  organization are visible to the
 general public. Please do not put personal identiable information, usernames and passwords
 and methods to access restricted US ATLAS and ATLAS (international) resources in this area.
 </span>
