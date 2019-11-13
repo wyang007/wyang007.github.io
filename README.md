@@ -1,6 +1,6 @@
 # <center>Public Documentation for US ATLAS Shared Tier 3/Analysis Facilities</center>
 
-![](<img src="USATLAS.png" width="200"/>)
+<img src="USATLAS.png" width="200"/>
 
 ### <span style="color:orange">Privacy Disclaimer</span>
 <span style="color:orange">US ATLAS documents and code samples hosted at this GitHub 
