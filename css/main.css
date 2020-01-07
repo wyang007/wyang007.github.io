@@ -1,8 +1,8 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: DodgerBlue; 
-    /* color: white; */
+    /* background-color: DodgerBlue; */
+    color: white;
 }
 nav ul li, footer ul li {
     display: inline;
