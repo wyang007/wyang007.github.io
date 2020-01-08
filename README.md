@@ -1,6 +1,7 @@
 <style>
-#more {display: none;}
+  #more {display: none;}
 </style>
+<script scr=/scripts/myReadMoreLess.js> </script>
 
 # <center>Public Documentation for US ATLAS Shared Tier 3</center>
 
@@ -26,7 +27,7 @@ Lab with PyROOT, Xcache with auto data discovery, GPUs, etc.
 The two facilites are backed by 
 staffs to support software environment, unix systems and
 storages.</span> 
-<button onclick="myFunction('dots', 'more', 'myBtn')" id="myBtn">Read more</button>
+<button onclick="myReadMoreLess('dots', 'more', 'myBtn')" id="myBtn">Read more</button>
 
 Instruction to login to `www.doe.com`:
 
@@ -35,20 +36,3 @@ Instruction to login to `www.doe.com`:
     Instruction 2
         source cvmfs-setup.sh
 
-<script>
-function myFunction(myLess, myMore, btnName) {
-  var dots = document.getElementById(myLess);
-  var moreText = document.getElementById(myMore);
-  var btnText = document.getElementById(btnName);
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
-</script>
