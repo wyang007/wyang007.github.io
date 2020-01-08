@@ -2,6 +2,8 @@
   #more {display: none;}
 </style>
 
+<script type="text/javascript" scr="/scripts/myReadMoreLess.js"></script>
+
 # <center>Public Documentation for US ATLAS Shared Tier 3</center>
 
 ### <span style="color:orange">Privacy Disclaimer</span>
@@ -35,7 +37,7 @@ Instruction to login to `www.doe.com`:
     Instruction 2
         source cvmfs-setup.sh
 
-<!-- <script scr="/scripts/myReadMoreLess.js"></script> -->
+<!--
 <script>
 function myReadMoreLess(myLess, myMore, btnName) {
   var dots = document.getElementById(myLess);
@@ -53,3 +55,4 @@ function myReadMoreLess(myLess, myMore, btnName) {
   }
 }
 </script>
+ -->
