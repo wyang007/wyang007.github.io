@@ -35,4 +35,21 @@ Instruction to login to `www.doe.com`:
     Instruction 2
         source cvmfs-setup.sh
 
-<script scr="/scripts/myReadMoreLess.js"></script>
+<!-- <script scr="/scripts/myReadMoreLess.js"></script> -->
+<script>
+function myReadMoreLess(myLess, myMore, btnName) {
+  var dots = document.getElementById(myLess);
+  var moreText = document.getElementById(myMore);
+  var btnText = document.getElementById(btnName);
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
