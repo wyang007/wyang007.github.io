@@ -14,18 +14,18 @@ and methods to access restricted US ATLAS and ATLAS (international) resources in
 ## Introduction to the US ATLAS Shared Tier 3s
 US ATLAS hosted two shared Tier 3 at BNL and SLAC, also known as Analysis Facilities. These
 two faclities are available to all US ATLAS physicists and computer scientists. 
-<span id="dots">...</span><div id="more">They are
+<span id="dots">...</span><span id="more">They are
 orgniazed and managed to support US ATLAS users' need on computing resources, including login,
 run interactive and batch jobs, access ATLAS data, store private data, etc.
-
+<br>
 These two 
 facilities also support tools specific for users analysis, including ATLAS/CERN
 software in [CVMFS](cvmfs), Grid middleware, Rucio clients, Machine Learning packages, MPI, Jupyter
 Lab with PyROOT, Xcache with auto data discovery, GPUs, etc. 
-
+<br>
 The two facilites are backed by 
 staffs to support software environment, unix systems and
-storages.</div>
+storages.</span>
 
 <button onclick="myFunction('dots', 'more', 'myBtn')" id="myBtn">Read more</button>
 
