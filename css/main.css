@@ -41,3 +41,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.paginate {
+    position:relative;
+}
+.paginate > li:last-child {
+    right:0;
+    position:absolute
+}
