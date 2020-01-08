@@ -25,8 +25,7 @@ Lab with PyROOT, Xcache with auto data discovery, GPUs, etc.
 <br><br>
 The two facilites are backed by 
 staffs to support software environment, unix systems and
-storages.</span>
-
+storages.</span> 
 <button onclick="myFunction('dots', 'more', 'myBtn')" id="myBtn">Read more</button>
 
 Instruction to login to `www.doe.com`:
@@ -49,7 +48,7 @@ function myFunction(myLess, myMore, btnName) {
   } else {
     dots.style.display = "none";
     btnText.innerHTML = "Read less";
-    moreText.style.display = "block";
+    moreText.style.display = "inline";
   }
 }
 </script>
