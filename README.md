@@ -2,7 +2,7 @@
   #more {display: none;}
 </style>
 
-<script type="text/javascript" scr="/scripts/myReadMoreLess.js"></script>
+<script type="text/javascript" src="/scripts/myReadMoreLess.js"></script>
 
 # <center>Public Documentation for US ATLAS Shared Tier 3</center>
 
