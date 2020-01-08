@@ -1,7 +1,6 @@
 <style>
   #more {display: none;}
 </style>
-<script scr="/scripts/myReadMoreLess.js"></script>
 
 # <center>Public Documentation for US ATLAS Shared Tier 3</center>
 
@@ -36,3 +35,4 @@ Instruction to login to `www.doe.com`:
     Instruction 2
         source cvmfs-setup.sh
 
+<script scr="/scripts/myReadMoreLess.js"></script>
