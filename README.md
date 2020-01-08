@@ -16,16 +16,12 @@ US ATLAS hosted two shared Tier 3 at BNL and SLAC, also known as Analysis Facili
 two faclities are available to all US ATLAS physicists and computer scientists. 
 <span id="dots">...</span><span id="more">They are
 orgniazed and managed to support US ATLAS users' need on computing resources, including login,
-run interactive and batch jobs, access ATLAS data, store private data, etc.
-<p>
-These two facilities also support tools specific for users analysis, including ATLAS/CERN
+run interactive and batch jobs, access ATLAS data, store private data, etc.<p> These two 
+facilities also support tools specific for users analysis, including ATLAS/CERN
 software in [CVMFS](cvmfs), Grid middleware, Rucio clients, Machine Learning packages, MPI, Jupyter
-Lab with PyROOT, Xcache with auto data discovery, GPUs, etc.
-<p>
-The two facilites are backed by staffs to support software environment, unix systems and
-storages.</span><p>
-
-<button onclick="myFunction()" id="myBtn">Read more</button>
+Lab with PyROOT, Xcache with auto data discovery, GPUs, etc. <p>The two facilites are backed by 
+staffs to support software environment, unix systems and
+storages.</span><p> <button onclick="myFunction()" id="myBtn">Read more</button>
 
 Instruction to login to `www.doe.com`:
 
