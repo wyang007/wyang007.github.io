@@ -1,3 +1,7 @@
+<style>
+#more {display: none;}
+</style>
+
 # <center>Public Documentation for US ATLAS Shared Tier 3</center>
 
 ### <span style="color:orange">Privacy Disclaimer</span>
@@ -30,6 +34,7 @@ Instruction to login to `www.doe.com`:
     Instruction 2
         source cvmfs-setup.sh
 
+<script>
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -45,3 +50,4 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+</script>
