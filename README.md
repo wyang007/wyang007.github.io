@@ -21,7 +21,7 @@ facilities also support tools specific for users analysis, including ATLAS/CERN
 software in [CVMFS](cvmfs), Grid middleware, Rucio clients, Machine Learning packages, MPI, Jupyter
 Lab with PyROOT, Xcache with auto data discovery, GPUs, etc. <p>The two facilites are backed by 
 staffs to support software environment, unix systems and
-storages.</span><p> <button onclick="myFunction()" id="myBtn">Read more</button>
+storages.</span><p> <button onclick="myFunction('dots', 'more', 'myBtn')" id="myBtn">Read more</button>
 
 Instruction to login to `www.doe.com`:
 
@@ -31,10 +31,10 @@ Instruction to login to `www.doe.com`:
         source cvmfs-setup.sh
 
 <script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+function myFunction(myLess, myMore, btnName) {
+  var dots = document.getElementById(myLess);
+  var moreText = document.getElementById(myMore);
+  var btnText = document.getElementById(btnName);
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
